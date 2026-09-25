@@ -1,11 +1,16 @@
-# 1DV610 — CLI Template Collection
+# 1DV610
 
-Boilerplate templates used in the **1DV610** course at Linnaeus University. Each
-repository is a clean, pre-configured starting point for a CLI assignment — pick
-the one matching your assignment's language, click **Use this template**, and
-follow that repository's own README for setup.
+Repositories for the **1DV610** course at Linnaeus University: starter templates
+for assignments and the live coding example used in the lectures.
 
-## Templates
+## 🧰 CLI templates
+
+Boilerplate templates for CLI assignments. Each repository is a clean,
+pre-configured starting point — pick the one matching your assignment's
+language, click **Use this template**, and follow that repository's own README
+for setup.
+
+### Templates
 
 | Repository | Stack | Description |
 | --- | --- | --- |
@@ -13,7 +18,7 @@ follow that repository's own README for setup.
 | [js-cli-template](https://github.com/1dv610/js-cli-template) | JavaScript (ESM) | Node.js CLI boilerplate with Vitest, ESLint + `@lnu/eslint-config`, Prettier. |
 | [ts-cli-template](https://github.com/1dv610/ts-cli-template) | TypeScript (strict) | Node.js CLI boilerplate with `tsx`, Vitest, ESLint + `@lnu/eslint-config`, Prettier. |
 
-## Getting started
+### Getting started
 
 1. Open the template repository for your assignment's stack.
 2. Click **Use this template → Create a new repository** (or follow the
@@ -22,7 +27,7 @@ follow that repository's own README for setup.
    Classroom).
 3. Follow the **Getting Started** section in that repository's own README.
 
-## Conventions across templates
+### Conventions across templates
 
 - **License:** All templates are released under the **Unlicense** (public domain).
 - **Node-based templates:** `engines.node` is kept in sync across the JS and TS
@@ -31,7 +36,7 @@ follow that repository's own README for setup.
 - **CI:** Every template runs its full quality gate (lint/static analysis and tests,
   plus format-check where applicable) on push/PR via GitHub Actions.
 
-## Live coding example: Ripe Tomato
+## 🍅 Live coding example: Ripe Tomato
 
 [ripe-tomato](https://github.com/1dv610/ripe-tomato) is the live coding example
 used in the lectures — a small [p5.js](https://p5js.org/) game built step by step
@@ -50,6 +55,6 @@ git checkout -b my-branch session-1   # or start-here, session-2, …
 
 See the repository's README (in Swedish) for setup and commands.
 
-## Questions
+## 💬 Questions
 
 Open an issue in the relevant repository, or reach out to the course staff.
